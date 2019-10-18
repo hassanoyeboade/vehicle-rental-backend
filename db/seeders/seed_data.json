@@ -1,0 +1,331 @@
+{
+  "airports": [
+    {
+      "code": "LOS",
+      "name": "MURTALA MUHAMMED INTERNATIONAL AIRPORT, LAGOS, NIGERIA"
+    },
+    {
+      "code": "ABV",
+      "name": "NNAMDI AZIKIWE INTERNATIONAL AIRPORT, ABUJA, NIGERIA"
+    },
+    {
+      "code": "PHC",
+      "name": "PORT HARCOURT INTERNATIONAL AIRPORT, PORT HARCOURT, NIGERIA"
+    },
+    {
+      "code": "KAN",
+      "name": "MALLAM AMINU KANO INTERNATIONAL AIRPORT, KANO, NIGERIA"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Lagos"
+    },
+    {
+      "name": "Abuja"
+    },
+    {
+      "name": "Port Harcourt"
+    },
+    {
+      "name": "Kano"
+    }
+  ],
+  "manufacturers": [
+    {
+      "name": "Ford"
+    },
+    {
+      "name": "Chevy"
+    },
+    {
+      "name": "Toyota"
+    },
+    {
+      "name": "Honda"
+    },
+    {
+      "name": "Kia"
+    },
+    {
+      "name": "Hyundai"
+    },
+    {
+      "name": "Peugeot"
+    },
+    {
+      "name": "Citroen"
+    },
+    {
+      "name": "Audi"
+    }
+  ],
+  "models": [
+    {
+      "name": "Ford Explorer",
+      "manufacturerName": "Ford"
+    },
+    {
+      "name": "Ford Fiesta",
+      "manufacturerName": "Ford"
+    },
+    {
+      "name": "Ford Mondeo",
+      "manufacturerName": "Ford"
+    },
+    {
+      "name": "Chevy Equinox",
+      "manufacturerName": "Chevy"
+    },
+    {
+      "name": "Toyota Corolla",
+      "manufacturerName": "Toyota"
+    },
+    {
+      "name": "Toyota Camry",
+      "manufacturerName": "Toyota"
+    },
+    {
+      "name": "Toyota Sienna",
+      "manufacturerName": "Toyota"
+    },
+    {
+      "name": "Honda Accord",
+      "manufacturerName": "Honda"
+    },
+     {
+      "name": "Kia Picanto",
+      "manufacturerName": "Kia"
+    },
+    {
+      "name": "Hyundai Elantra",
+      "manufacturerName": "Hyundai"
+    },
+    {
+      "name": "Hyundai i10",
+      "manufacturerName": "Hyundai"
+    },
+    {
+      "name": "Peugeot 108",
+      "manufacturerName": "Peugeot"
+    },
+    {
+      "name": "Citroen C3",
+      "manufacturerName": "Citroen"
+    },
+    {
+      "name": "Audi A5",
+      "manufacturerName": "Audi"
+    }
+  ],
+  "rentTypes": [
+    {
+      "type": "Mini",
+      "doors": 2,
+      "seats": 4,
+      "luggageCapacity": "1 large suitcase",
+      "description": "City trips, for one or two people"
+    },
+    {
+      "type": "Mini Extra",
+      "doors": 4,
+      "seats": 4,
+      "luggageCapacity": "1 large suitcase",
+      "description": "City trips, for one or two people"
+    },
+    {
+      "type": "Economy",
+      "doors": 2,
+      "seats": 4,
+      "luggageCapacity": "1 large suitcase, 1 small suitcase",
+      "description": "City and short trips"
+    },
+    {
+      "type": "Economy Extra",
+      "doors": 4,
+      "seats": 5,
+      "luggageCapacity": "1 large suitcase, 1 small suitcase",
+      "description": "City and short trips"
+    },
+    {
+      "type": "Compact",
+      "doors": 2,
+      "seats": 5,
+      "luggageCapacity": "2 large suitcases",
+      "description": "City and mid-length trips"
+    },
+    {
+      "type": "Compact Extra",
+      "doors": 4,
+      "seats": 5,
+      "luggageCapacity": "2 large suitcases",
+      "description": "City and mid-length trips"
+    },
+    {
+      "type": "Compact Estate",
+      "doors": 4,
+      "seats": 5,
+      "luggageCapacity": "3 large suitcases",
+      "description": "City and mid-length trips with extra luggage"
+    },
+    {
+      "type": "Intermediate",
+      "doors": 4,
+      "seats": 5,
+      "luggageCapacity": "2 large suitcases, 1 small suitcase",
+      "description": "Mid-length to long trips"
+    },
+    {
+      "type": "Intermediate Estate",
+      "doors": 4,
+      "seats": 5,
+      "luggageCapacity": "3 large suitcases",
+      "description": "Mid-length to long trips with extra luggage"
+    },
+    {
+      "type": "Standard",
+      "doors": 4,
+      "seats": 5,
+      "luggageCapacity": "2 large suitcases, 1 small suitcase",
+      "description": "Mid-length to long trips with extra comfort"
+    },
+    {
+      "type": "Standard Estate",
+      "doors": 4,
+      "seats": 5,
+      "luggageCapacity": "3 large suitcases",
+      "description": "Mid-length to long trips with extra comfort and luggage"
+    },
+    {
+      "type": "Full-size",
+      "doors": 4,
+      "seats": 5,
+      "luggageCapacity": "3 large suitcases",
+      "description": "Long trips, extra comfort and better performance"
+    },
+    {
+      "type": "Full-size Estate",
+      "doors": 4,
+      "seats": 5,
+      "luggageCapacity": "3 large suitcases",
+      "description": "Long trips with extra luggage"
+    },
+    {
+      "type": "Luxury",
+      "doors": 4,
+      "seats": 5,
+      "luggageCapacity": "3 large suitcases",
+      "description": "Travelling in style"
+    },
+    {
+      "type": "Convertible",
+      "doors": 2,
+      "seats": 5,
+      "luggageCapacity": "1-2 large suitcases",
+      "description": "Open-air driving experience"
+    },
+    {
+      "type": "SUV",
+      "doors": 4,
+      "seats": 5,
+      "luggageCapacity": "1-3 large suitcases",
+      "description": "Long trips and rural roads"
+    },
+    {
+      "type": "People Carrier",
+      "doors": 4,
+      "seats": 8,
+      "luggageCapacity": "4 large suitcases",
+      "description": "Groups and large families"
+    }
+  ],
+  "vehicles": [
+    {
+      "plateNumber": "AA123",
+      "transmissionType": "manual",
+      "airConditioned": true,
+      "canReturnAtDifferentLocation": false,
+      "imageUrl": "https://images.netdirector.co.uk/gforces-auto/image/upload/w_392,h_261,dpr_2.0,q_auto,c_fill,f_auto,fl_lossy/auto-client/b886fb3e7e3ec3335a63d2bb1a38b260/hyundai_i10_go_se_polar_white_0002.jpg",
+      "bookingPrice": 5500,
+      "extraDetails": [
+        "6 Speaker Radio/CD system",
+        "Hybrid system display",
+        "Vehicle Stability Control",
+        "Hill-start Assist Control"
+      ],
+      "modelName": "Hyundai i10",
+      "type": "Intermediate",
+      "rentalType": "Mini Extra",
+      "unlimitedMilesIncluded": true
+    },
+    {
+      "plateNumber": "AA243",
+      "transmissionType": "automatic",
+      "airConditioned": false,
+      "canReturnAtDifferentLocation": false,
+      "imageUrl": "https://images.netdirector.co.uk/gforces-auto/image/upload/w_392,h_261,dpr_2.0,q_auto,c_fill,f_auto,fl_lossy/auto-client/3c4e23058172911ebcc4c62ad2401b39/108.png",
+      "bookingPrice": 7000,
+      "unlimitedMilesIncluded": true,
+      "type": "Compact",
+      "modelName": "Peugeot 108",
+      "rentalType": "Mini Extra"
+    },
+    {
+      "plateNumber": "BB123",
+      "transmissionType": "automatic",
+      "airConditioned": true,
+      "canReturnAtDifferentLocation": true,
+      "imageUrl": "https://cars.usnews.com/static/images/Auto/izmo/i105104134/2019_ford_fiesta_angularfront.jpg",
+      "bookingPrice": 9000,
+      "extraDetails": [
+        "Hybrid system display",
+        "Vehicle Stability Control",
+        "Remote Control"
+      ],
+      "unlimitedMilesIncluded": false,
+      "type": "Compact",
+      "modelName": "Ford Fiesta",
+      "rentalType": "Economy"
+    },
+    {
+      "plateNumber": "BC223",
+      "transmissionType": "automatic",
+      "airConditioned": true,
+      "canReturnAtDifferentLocation": false,
+      "imageUrl": "https://www.nationwidevehiclecontracts.co.uk/m/2/c3-hatchback-flair.jpg",
+      "bookingPrice": 5000,
+      "extraDetails": [
+        "Remote Control",
+        "8 Speaker Audio system"
+      ],
+      "unlimitedMilesIncluded": true,
+      "type": "Compact",
+      "modelName": "Citroen C3",
+      "rentalType": "Economy"
+    },
+    {
+      "plateNumber": "XX125",
+      "transmissionType": "automatic",
+      "unlimitedMilesIncluded": false,
+      "airConditioned": false,
+      "canReturnAtDifferentLocation": false,
+      "imageUrl": "https://cdn2.carbuyer.co.uk/sites/carbuyer_d7/files/styles/16x9_720/public/ford-mondeo-mk4-01.jpg?itok=skVBRcO7",
+      "bookingPrice": 8000,
+      "type": "Economy",
+      "modelName": "Ford Mondeo",
+      "rentalType": "Standard"
+    },
+    {
+      "plateNumber": "XA124",
+      "transmissionType": "automatic",
+      "airConditioned": true,
+      "canReturnAtDifferentLocation": true,
+      "imageUrl": "https://c4d709dd302a2586107d-f8305d22c3db1fdd6f8607b49e47a10c.ssl.cf1.rackcdn.com/thumbnails/stock-images/4c4dfa7de047f3af2d17207cfb9e17d9.png",
+      "unlimitedMilesIncluded": true,
+      "type": "Sport",
+      "bookingPrice": 8500,
+      "modelName": "Audi A5",
+      "rentalType": "Luxury"
+    }
+  ]
+}

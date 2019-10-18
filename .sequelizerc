@@ -1,0 +1,7 @@
+'use strict';
+
+module.exports = {
+  'migrations-path': __dirname + '/db/migrations',
+  'seeders-path': __dirname + '/db/seeders',
+  'config': __dirname + '/db/config/config.js'
+};
