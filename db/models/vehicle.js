@@ -38,12 +38,6 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.FLOAT,
       allowNull: false,
     },
-    bookingCurrency: {
-      type: DataTypes.VIRTUAL(DataTypes.STRING),
-      get() {
-        return process.env.CURRENCY;
-      }
-    },
     extraDetails: {
       type: DataTypes.ARRAY(DataTypes.STRING),
       allowNull: true,
@@ -56,7 +50,7 @@ module.exports = function(sequelize, DataTypes) {
     type: {
       type: DataTypes.ENUM(vehicleTypes),
       allowNull: false
-    }
+    },
   });
 
   Vehicle.associate = function (models) {

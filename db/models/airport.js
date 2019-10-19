@@ -37,7 +37,7 @@ module.exports = function (sequelize, DataTypes) {
   });
 
   Airport.associate = function (models) {
-    Airport.hasMany(models.vehicle)
+    Airport.hasMany(models.vehicle_airport)
   }
 
   return Airport

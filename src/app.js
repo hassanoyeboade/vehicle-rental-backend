@@ -1,4 +1,4 @@
-import express, {Application, NextFunction, Request, Response} from "express";
+import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
 import morgan from "morgan";
@@ -15,8 +15,9 @@ route(app);
 
 
 const port = process.env.PORT || 5000;
+
 app.listen(port, () => {
-    console.info(`App running and listening on port ${port}!`);
+  console.info(`App listening on port ${port}!`);
 });
 
 export default app;

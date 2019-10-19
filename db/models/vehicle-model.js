@@ -13,7 +13,7 @@ module.exports = function (sequelize, DataTypes) {
 
   VehicleModel.associate = function (models) {
     VehicleModel.belongsTo(models.vehicle_manufacturer, {as: 'manufacturer'});
-    VehicleModel.hasMany(models.vehicle)
+    VehicleModel.hasMany(models.vehicle, {as: 'vehicles', foreignKey: 'modelId'})
   }
 
   return VehicleModel;

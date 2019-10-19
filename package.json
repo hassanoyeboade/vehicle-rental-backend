@@ -5,7 +5,7 @@
   "main": "src/app.js",
   "scripts": {
     "start": "npm run build && node dist/app.js",
-    "dev": "npm run watch && nodemon app.js",
+    "dev": "npm run watch && nodemon dist/app.js",
     "build": "babel --presets es2015 -d dist/ src",
     "watch": "babel-watch src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,8 +23,15 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
     "express": "^4.17.1",
-    "morgan": "^1.9.1"
+    "lodash": "^4.17.15",
+    "lx-valid": "^1.2.4",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.19.0",
+    "sequelize-cli": "^5.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

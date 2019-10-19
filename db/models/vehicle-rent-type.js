@@ -32,7 +32,7 @@ module.exports = function(sequelize, DataTypes) {
   });
 
   VehicleRentType.associate = function (models) {
-    VehicleRentType.hasMany(models.vehicle);
+    VehicleRentType.hasMany(models.vehicle, {as: 'vehicles', foreignKey: 'rentTypeId'});
   }
 
   return VehicleRentType
